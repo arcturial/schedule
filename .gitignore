@@ -1,0 +1,4 @@
+/vendor/
+/build/
+/src/TestCommand
+composer.phar

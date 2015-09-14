@@ -1,0 +1,17 @@
+{
+    "name": "arcturial/schedule",
+    "description": "Cron scheduling Symfony Console command",
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/console": "*",
+        "symfony/config": "*",
+        "symfony/yaml": "*",
+        "mtdowling/cron-expression": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arcturial\\Schedule\\": ["src", "test"]
+        }
+    },
+    "minimum-stability": "dev"
+}
